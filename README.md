@@ -105,4 +105,9 @@ YYYY-MM-DD HR:MN:SC INFO     discord.client logging in using static token
 YYYY-MM-DD HR:MN:SC INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: <SOME LONG STRING>).
 ```
 
+## Using the Bot
+This template comes with a build in prefix and command. The prefix for this bot is set to `!`, and the one command is `hello`.
+
+Once you have added your bot to your server and are running it, type `!hello` into the chat. The bot will respond with `Hello, <YOUR USERNAME>`. 
+
 
