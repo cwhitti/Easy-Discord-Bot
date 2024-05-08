@@ -1,0 +1,63 @@
+2024-05-08 16:41:12,330 INFO logging in using static token
+2024-05-08 16:41:13,321 INFO Shard ID None has connected to Gateway (Session ID: c68a30bd4a96047dd989ca2638abfec8).
+2024-05-08 16:41:16,924 INFO alidoof generated a new color: #50918D
+2024-05-08 16:41:19,023 INFO alidoof generated a new color: #3CEA99
+2024-05-08 16:42:15,232 INFO logging in using static token
+2024-05-08 16:42:16,308 INFO Shard ID None has connected to Gateway (Session ID: 8cd612d91d9875a44e6a179957fe6497).
+2024-05-08 16:42:21,064 INFO alidoof tried hex: djkshdfs
+2024-05-08 16:42:21,064 ERROR Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/cw/Documents/GitHub/Discord-Bot-Template-Easy/example/bot.py", line 99, in on_message
+    r,g,b = hex_to_rgb(hex_code)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cw/Documents/GitHub/Discord-Bot-Template-Easy/example/bot.py", line 146, in hex_to_rgb
+    r = int(hex_color[0:2], 16)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: 'dj'
+2024-05-08 16:44:57,597 INFO logging in using static token
+2024-05-08 16:44:58,568 INFO Shard ID None has connected to Gateway (Session ID: eebc5be73f01ae6f91917bae885bcf24).
+2024-05-08 16:45:01,031 INFO alidoof tried hex: djkshdfs
+2024-05-08 16:45:01,032 INFO INVALID HEX CODE: djkshdfs
+2024-05-08 16:45:04,146 INFO alidoof tried hex: djkshdfs
+2024-05-08 16:45:04,146 INFO INVALID HEX CODE: djkshdfs
+2024-05-08 16:45:08,506 INFO alidoof tried hex: 328947
+2024-05-08 16:45:08,525 INFO VALID HEX CODE: 328947
+2024-05-08 16:45:17,601 INFO alidoof tried hex: 0304982
+2024-05-08 16:45:17,604 INFO VALID HEX CODE: 0304982
+2024-05-08 16:45:25,284 INFO alidoof tried hex: ww304982
+2024-05-08 16:45:25,285 INFO INVALID HEX CODE: ww304982
+2024-05-08 16:45:40,446 INFO logging in using static token
+2024-05-08 16:45:41,804 INFO Shard ID None has connected to Gateway (Session ID: c235f5547935ebb305e4672baed190b0).
+2024-05-08 16:45:43,789 ERROR Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/cw/Documents/GitHub/Discord-Bot-Template-Easy/example/bot.py", line 65, in on_message
+    embed = discord.embed(title="Showing commands...")
+            ^^^^^^^^^^^^^
+AttributeError: module 'discord' has no attribute 'embed'. Did you mean: 'Embed'?
+2024-05-08 16:45:59,453 INFO logging in using static token
+2024-05-08 16:46:00,611 INFO Shard ID None has connected to Gateway (Session ID: 70d6b75cbc38bc32ecab4cbf55665839).
+2024-05-08 16:46:25,451 INFO logging in using static token
+2024-05-08 16:46:27,306 INFO Shard ID None has connected to Gateway (Session ID: 190b55b459fdeda4f9b44b53b57b691e).
+2024-05-08 16:46:39,366 INFO alidoof generated a new color: #73B693
+2024-05-08 16:46:48,449 INFO alidoof tried hex: #73B693
+2024-05-08 16:46:48,450 INFO VALID HEX CODE: 73B693
+2024-05-08 16:46:53,519 INFO alidoof tried hex: 73B693
+2024-05-08 16:46:53,522 INFO VALID HEX CODE: 73B693
+2024-05-08 16:46:58,764 INFO alidoof tried hex: #73B693W
+2024-05-08 16:46:58,764 INFO INVALID HEX CODE: 73B693W
+2024-05-08 16:47:20,741 INFO logging in using static token
+2024-05-08 16:47:21,836 INFO Shard ID None has connected to Gateway (Session ID: d8c7a47e15c6307b30385fed2b24cd73).
+2024-05-08 16:47:28,998 INFO alidoof generated a new color: #81A51E
+2024-05-08 16:47:30,238 INFO alidoof generated a new color: #73214A
+2024-05-08 16:47:31,269 INFO alidoof generated a new color: #3843E6
+2024-05-08 16:47:32,317 INFO alidoof generated a new color: #A995B4
+2024-05-08 16:47:33,122 INFO alidoof generated a new color: #78C18D
+2024-05-08 16:47:34,074 INFO alidoof generated a new color: #A13AFD
+2024-05-08 16:47:35,138 INFO alidoof generated a new color: #DEC8CC
+2024-05-08 16:47:35,804 INFO alidoof generated a new color: #7B1108
+2024-05-08 16:47:36,738 INFO alidoof generated a new color: #EEED85
+2024-05-08 16:47:38,230 INFO alidoof generated a new color: #3C5367
