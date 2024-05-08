@@ -96,5 +96,10 @@ or for Python3 users...
 python3 run.py
 ```
 
+The script should start and your bot should be logging in with the following message:
+```
+YYYY-MM-DD HR:MN:SC INFO     discord.client logging in using static token
+YYYY-MM-DD HR:MN:SC INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: <SOME LONG STRING>).
+```
 
 
