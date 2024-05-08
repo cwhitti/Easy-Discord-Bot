@@ -1,4 +1,7 @@
 # Discord Bots, made Easy!
+
+![](https://cdn.discordapp.com/attachments/1237634400192041015/1237665322987683882/ezgif-7-141be90d8f.gif?ex=663c7927&is=663b27a7&hm=b7cf163eb4228a372c17a941742083387189d1d6d87697f06d13c9938733e4bd&)
+
 This repository serves as a simple, python-based template to start off any Discord Bot. It is solely a guild-based application that does NOT implement slash commands. Because slash commands are icky.
 
 Documentation for discord.py can be found [here](https://discordpy.readthedocs.io/en/stable/)
