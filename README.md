@@ -105,12 +105,12 @@ YYYY-MM-DD HR:MN:SC INFO     discord.client logging in using static token
 YYYY-MM-DD HR:MN:SC INFO     discord.gateway Shard ID None has connected to Gateway (Session ID: <SOME LONG STRING>).
 ```
 
-## Using the Bot
+### Using the Bot
 This template comes with a build in prefix and command. The prefix for this bot is set to `!`, and the one command is `hello`.
 
 Once you have added your bot to your server and are running it, type `!hello` into the chat. The bot will respond with `Hello, <YOUR USERNAME>`. 
 
-### Advancing Further
+## Advancing Further
 Discord bots can do so much more than just send messages. They can read user input, generate images, play music, and so much more. 
 
 I have created an example bot which shows you how to take your bot a step further. Please see [this example](https://github.com/cwhitti/Easy-Discord-Bot/tree/main/example) for more!
