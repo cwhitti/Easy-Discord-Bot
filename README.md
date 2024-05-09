@@ -12,7 +12,7 @@ Last updated May 8th, 2024.
 First, clone into this repository by using the following command:
 
 ```
-git clone https://github.com/cwhitti/Discord-Bot-Template-Easy
+git clone https://github.com/cwhitti/Easy-Discord-Bot
 ```
 
 Make note of where the repo was saved to so you can access it later.
