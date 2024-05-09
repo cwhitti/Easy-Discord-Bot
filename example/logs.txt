@@ -61,3 +61,13 @@ AttributeError: module 'discord' has no attribute 'embed'. Did you mean: 'Embed'
 2024-05-08 16:47:35,804 INFO alidoof generated a new color: #7B1108
 2024-05-08 16:47:36,738 INFO alidoof generated a new color: #EEED85
 2024-05-08 16:47:38,230 INFO alidoof generated a new color: #3C5367
+2024-05-08 16:57:19,119 INFO logging in using static token
+2024-05-08 16:57:20,086 INFO Shard ID None has connected to Gateway (Session ID: 4a32e58808b4eb839babdc59c7fc3563).
+2024-05-08 16:57:59,371 INFO alidoof generated a new color: #ECFA4B
+2024-05-08 16:58:06,187 INFO alidoof tried hex: #ECFA4B
+2024-05-08 16:58:06,189 INFO VALID HEX CODE: ECFA4B
+2024-05-08 16:58:51,145 INFO alidoof generated a new color: #EEC828
+2024-05-08 16:58:52,847 INFO alidoof generated a new color: #E2783C
+2024-05-08 16:58:54,187 INFO alidoof generated a new color: #A9E324
+2024-05-08 16:58:59,417 INFO alidoof tried hex: #A9E324
+2024-05-08 16:58:59,419 INFO VALID HEX CODE: A9E324
