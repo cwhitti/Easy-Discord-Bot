@@ -110,4 +110,11 @@ This template comes with a build in prefix and command. The prefix for this bot 
 
 Once you have added your bot to your server and are running it, type `!hello` into the chat. The bot will respond with `Hello, <YOUR USERNAME>`. 
 
+### Advancing Further
+Discord bots can do so much more than just send messages. They can read user input, generate images, play music, and so much more. 
 
+I have created an example bot which shows you how to take your bot a step further. Please see [this example](https://github.com/cwhitti/Easy-Discord-Bot/tree/main/example) for more!
+
+![](https://camo.githubusercontent.com/5a7dedcd9b84a1679a962f96acfbeb94b7e94f5a648f1ecf2d617cd43e3984ab/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313233373931373334303730303737303335342f313233373931373336373235303731343736342f657a6769662d372d353332376466653831652e6769663f65783d36363364363365332669733d363633633132363326686d3d6633643866333639613433383838343630633961616236373135653330643134356236643331366237353937623735323330363634323739613365643137353926)
+
+#### Thank you! - Claire
