@@ -26,11 +26,11 @@ This can be done with pip. If pip is not installed, install it with [this tutori
 Install the discord library with the following command:
 
 ```
-pip install discord
+pip install discord.py
 ```
 or, for python3 users...
 ```
-pip3 install discord
+pip3 install discord.py
 ```
 
 
