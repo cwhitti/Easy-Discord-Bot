@@ -117,4 +117,39 @@ I have created an example bot which shows you how to take your bot a step furthe
 
 ![](https://camo.githubusercontent.com/5a7dedcd9b84a1679a962f96acfbeb94b7e94f5a648f1ecf2d617cd43e3984ab/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313233373931373334303730303737303335342f313233373931373336373235303731343736342f657a6769662d372d353332376466653831652e6769663f65783d36363364363365332669733d363633633132363326686d3d6633643866333639613433383838343630633961616236373135653330643134356236643331366237353937623735323330363634323739613365643137353926)
 
+
+To get started, here are attributes of msg you may find interesting!
+| **Attribute/Method**      | **Description** |
+|--------------------------|----------------|
+| `id`                     | Unique ID of the message. |
+| `content`                | The text content of the message. |
+| `author`                 | The `discord.Member` or `discord.User` who sent the message. |
+| `channel`                | The `discord.TextChannel`, `discord.DMChannel`, or `discord.Thread` the message was sent in. |
+| `guild`                  | The `discord.Guild` the message belongs to (None if in a DM). |
+| `created_at`             | Timestamp when the message was created. |
+| `edited_at`              | Timestamp of the last edit (None if never edited). |
+| `type`                   | Type of message (e.g., `default`, `system`, `reply`). |
+| `flags`                  | A `discord.MessageFlags` object containing metadata (e.g., `crossposted`, `ephemeral`). |
+| `jump_url`               | A URL that jumps to the message. |
+| `attachments`            | List of `discord.Attachment` objects representing files attached to the message. |
+| `embeds`                 | List of `discord.Embed` objects representing rich content. |
+| `stickers`               | List of `discord.StickerItem` objects representing stickers. |
+| `reactions`              | List of `discord.Reaction` objects representing reactions. |
+| `mention_everyone`       | `True` if the message mentions `@everyone` or `@here`. |
+| `mentions`               | List of `discord.User` or `discord.Member` objects mentioned. |
+| `role_mentions`          | List of `discord.Role` objects mentioned. |
+| `channel_mentions`       | List of `discord.TextChannel` or `discord.Thread` objects mentioned. |
+| `reference`              | A `discord.MessageReference` if the message is a reply. |
+| `referenced_message`     | The `discord.Message` the current message replied to (None if not cached). |
+| `thread`                 | The `discord.Thread` associated with the message, if any. |
+| `interaction`            | A `discord.Interaction` object if triggered by an interaction (e.g., slash command). |
+| `components`             | List of `discord.Component` objects (buttons, select menus). |
+| **Methods**              | **Description** |
+| `.delete()`              | Deletes the message. |
+| `.edit(content=None, embed=None, attachments=None, ...)` | Edits the message. |
+| `.add_reaction(emoji)`   | Adds a reaction to the message. |
+| `.remove_reaction(emoji, user)` | Removes a reaction from a message. |
+| `.clear_reactions()`     | Removes all reactions from a message. |
+| `.reply(content, **kwargs)` | Sends a reply to the message. |
+
 #### Thank you! - Claire
